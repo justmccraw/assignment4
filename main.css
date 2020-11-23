@@ -43,3 +43,7 @@ header nav ul li {
     font-size: 35px;
     float: left;
 }
+
+span.subheader {
+    color: pink;
+}
