@@ -58,7 +58,7 @@ span.subheader {
 
 .cloud {
   position: absolute;
-  top: -210px;
+  top: -200px;
   left: 30px;
   animation-name: fly;
   animation-duration: 3s;
