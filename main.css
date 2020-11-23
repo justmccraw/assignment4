@@ -51,3 +51,24 @@ header nav ul li {
 span.subheader {
     color: pink;
 }
+
+.cloud-container {
+  position: relative;
+}
+
+.cloud {
+  position: absolute;
+  top: 300px;
+  left: 30px;
+  animation-name: fly;
+  animation-duration: 3s;
+}
+
+@keyframes fly {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(1000px);
+  }
+}
