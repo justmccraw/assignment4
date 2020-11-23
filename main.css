@@ -22,6 +22,10 @@ header a {
   color: navy;
 }
 
+header a:hover {
+  color: pink;
+}
+
 header nav ul li {
     display: inline;
     padding: 50px;
