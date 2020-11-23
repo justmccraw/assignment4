@@ -24,4 +24,22 @@ header a {
 
 header nav ul li {
     display: inline;
+    padding: 50px;
+}
+
+.top-hero {
+    background: url('images/statue.jpg') center/cover no-repeat fixed;
+    position: relative;
+}
+
+.hero-content {
+    color: white;
+    position: absolute;
+    top: 80%;
+    right: 60%;
+}
+
+.hero-content h1 {
+    font-size: 35px;
+    float: left;
 }
